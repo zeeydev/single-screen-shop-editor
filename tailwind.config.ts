@@ -52,18 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				success: {
-					DEFAULT: 'hsl(var(--success))',
-					foreground: 'hsl(var(--success-foreground))'
+				'olx-orange': {
+					DEFAULT: 'hsl(var(--olx-orange))',
+					foreground: 'hsl(var(--olx-orange-foreground))'
 				},
-				warning: {
-					DEFAULT: 'hsl(var(--warning))',
-					foreground: 'hsl(var(--warning-foreground))'
+				'olx-purple': {
+					DEFAULT: 'hsl(var(--olx-purple))',
+					foreground: 'hsl(var(--olx-purple-foreground))'
 				},
-				info: {
-					DEFAULT: 'hsl(var(--info))',
-					foreground: 'hsl(var(--info-foreground))'
-				},
+				'olx-gray': 'hsl(var(--olx-gray))',
+				'olx-light-gray': 'hsl(var(--olx-light-gray))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

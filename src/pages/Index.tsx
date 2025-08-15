@@ -24,13 +24,13 @@ interface ProductData {
 const Index = () => {
   const [isAdminMode, setIsAdminMode] = useState(false);
   const [productData, setProductData] = useState<ProductData>({
-    title: "Churrasqueira Elétrica Grill Premium 2000W",
-    price: "R$ 299,00",
-    description: "Churrasqueira elétrica de alta qualidade, perfeita para uso interno e externo. Com 2000W de potência, controle de temperatura ajustável e superfície antiaderente. Inclui bandeja coletora removível para fácil limpeza. Ideal para apartamentos e casas. Produto em excelente estado de conservação, pouco uso.",
+    title: "Churrasqueira Elétrica",
+    price: "R$ 50",
+    description: "Churrasqueira elétrica para preparar seus grelhados com praticidade. Ideal para diversas receitas e momentos de lazer.",
     condition: "Usado",
-    category: "Eletrodomésticos",
+    category: "Eletroportáteis Para Cozinha e Limpeza",
     location: "Fortaleza, CE",
-    postedDate: "Há 2 dias",
+    postedDate: "14/08 às 12:49",
     views: 127,
     seller: {
       name: "João Silva",
@@ -38,7 +38,7 @@ const Index = () => {
       rating: 4.8,
       totalAds: 23
     },
-    images: [electricGrill, electricGrill, electricGrill]
+    images: ["/lovable-uploads/bcd4b6fb-d172-4f04-b677-d63cf27bd0b7.png", electricGrill, electricGrill]
   });
 
   const handleSaveProduct = (newData: ProductData) => {
